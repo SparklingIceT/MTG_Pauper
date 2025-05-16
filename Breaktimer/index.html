@@ -1,0 +1,78 @@
+<head>
+
+  <!-- Global styling -->
+  <link rel="stylesheet" type="text/css" href="../_css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../_css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="../_css/colors.css">
+
+  <!-- Template specific styling -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <script>
+    
+    // Template settings
+    var dev = false,
+        gotVideo = false,
+        gotImage = true,
+        gotLoop = true,
+        gotWipe = false,
+        gotContent = true,
+        fadeIn = true,
+        fadeOut = true;
+
+  </script>
+
+</head>
+<body>
+  <div id="container">
+
+    <div id="content-container" >
+
+     
+      <div id='countdown-parent' class='retina yellow border countdown-parent'>
+        <span id='countdown' class='countdown'>50:00</span>
+      </div>
+
+      <div id='text-parent' class='retina black bold text-parent'>
+        <span id='text' class='text'></span>
+      </div>
+
+
+
+    </div>
+
+    <div id="graphic-container"></div>
+
+  </div>
+
+  <script src="../_js/jquery-3.0.0.min.js"></script>
+  <script src="../_js/jquery-ui.min.js"></script>
+  <script src="../_js/jquery.countdown.js"></script>
+  <script src="../_js/jquery.countdown.min.js"></script>
+
+  <!-- ### RUNDOWN ### -->
+  <script src="rundown.js"></script>
+
+  <!-- ### ANIMATION CONTROLLER ### -->
+  <script src="../_js/video.controller.js"></script>
+
+  <!-- ### CASPAR ### -->
+  <script src="../_js/ccg.js"></script>
+
+<!-- Import Updater -->
+  <script src="../_js/Updater.js"></script>
+   <script>
+       const settings = {
+                'string' : {
+                    'B2' : 'text',
+                }
+            };
+        const spreadsheetID = '1L_WuG6Z3SlaZy1lvvXWb8FkDNvVN9hLf5isXD5kyXx4'
+        const worksheetName = 'OUTPUT';
+        const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+        const updateInterval = 3000;
+
+        const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+   </script>
+
+</body>
