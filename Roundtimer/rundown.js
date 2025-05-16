@@ -43,7 +43,7 @@ function insertData(data){
 // Animate text and visual elements
 function ContentLayer(action){
   if(action === 'play') {
-    $("#content-container").delay(800).fadeTo(250, '1.0');
+    $("#content-container").delay(1000).fadeTo(250, '1.0');
   }
   if(action === 'stop') {
     $("#content-container").delay(200).fadeTo(250, '0.0');

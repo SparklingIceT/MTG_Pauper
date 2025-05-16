@@ -28,13 +28,6 @@
 
     <div id="content-container" >
 
-        <div id='name-parent' class='retina black bold name-parent'>
-          <span id='name' class='name'></span>
-        </div>
-        <div id='name-parent2' class='retina black bold name-parent2'>
-          <span id='name2' class='name2'></span>
-        </div>
-
     </div>
 
     <div id="graphic-container"></div>
@@ -52,23 +45,5 @@
 
   <!-- ### CASPAR ### -->
   <script src="../_js/ccg.js"></script>
-
-<!-- Import Updater -->
-  <script src="../_js/Updater.js"></script>
-   <script>
-       const settings = {
-                'string' : {
-                    'A78' : 'name',
-                    'A79' : 'name2',
-                }
-            };
-        const spreadsheetID = '1L_WuG6Z3SlaZy1lvvXWb8FkDNvVN9hLf5isXD5kyXx4'
-        const worksheetName = 'OUTPUT';
-        const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
-        const updateInterval = 3000;
-
-        const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
-   </script>
-
 
 </body>
