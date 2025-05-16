@@ -6,7 +6,7 @@ function step(e){
 
 var width = document.getElementById("container").offsetWidth,
 height = document.getElementById("container").offsetHeight,
-fps = 60,
+fps = 25,
 interval = 1000/fps,
 now,
 then = Date.now(),
