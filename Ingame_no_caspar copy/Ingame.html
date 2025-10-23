@@ -1,0 +1,76 @@
+<head>
+
+  <!-- Global styling -->
+  <link rel="stylesheet" type="text/css" href="../_css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../_css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="../_css/colors.css">
+
+  <!-- Template styling -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+  <div id="container">
+
+    <div id="content-container" >
+
+        <div id='name-parent' class='retina black bold name-parent'>
+          <span id='name' class='name'></span>
+        </div>
+        <div id='deck-parent' class='retina black medium deck-parent'>
+          <span id='deck' class='deck'></span>
+        </div>
+        <div id='name-parent2' class='retina black bold name-parent2'>
+          <span id='name2' class='name2'></span>
+        </div>
+        <div id='deck-parent2' class='retina black medium deck-parent2'>
+          <span id='deck2' class='deck2'></span>
+        </div>
+        <div id='score-parent' class='retina black bold score-parent'>
+          <span id='score' class='score'></span>
+        </div>
+        <div id='score-parent2' class='retina black bold score-parent2'>
+          <span id='score2' class='score2'></span>
+        </div>
+
+    </div>
+
+    <div id="graphic-container"></div>
+
+  </div>
+
+  <script src="../_js/jquery-3.0.0.min.js"></script>
+  <script src="../_js/jquery-ui.min.js"></script>
+
+  <!-- ### RUNDOWN ### -->
+  <script src="rundown.js"></script>
+
+  <!-- ### ANIMATION CONTROLLER ### -->
+  <script src="../_js/video.controller.js"></script>
+
+  <!-- ### CASPAR ### -->
+  <script src="../_js/ccg.js"></script>
+
+<!-- Import Updater -->
+  <script src="../_js/Updater.js"></script>
+   <script>
+       const settings = {
+                'string' : {
+                    'A4' : 'name',
+                    'A8' : 'deck',
+                    'A6' : 'name2',
+                    'A10' : 'deck2',
+                    'A76' : 'score',
+                    'A77' : 'score2',
+                }
+            };
+        const spreadsheetID = '1L_WuG6Z3SlaZy1lvvXWb8FkDNvVN9hLf5isXD5kyXx4'
+        const worksheetName = 'OUTPUT';
+        const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+        const updateInterval = 3000;
+
+        const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+   </script>
+
+
+</body>

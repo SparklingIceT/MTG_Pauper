@@ -1,0 +1,25 @@
+.name{
+    position: absolute;
+    overflow: hidden;
+    top: 83%;
+    left: 3.9%;
+    font-size: 380%;
+    text-align: left;
+}
+.name2{
+    position: absolute;
+    overflow: hidden;
+    top: 83%;
+    left: 64.5%;
+    font-size: 380%;
+    text-align: right;
+    width: 600px;
+}
+.round{
+    position: absolute;
+    left: 45%;
+    top: 87.6%;
+    overflow: hidden;
+    font-size: 224%;
+    text-align: center;
+}
