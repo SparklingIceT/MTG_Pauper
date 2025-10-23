@@ -1,0 +1,36 @@
+@font-face {
+font-family: roboto-bold;
+src: url('../_fonts/Roboto-Bold.ttf');
+}
+@font-face {
+font-family: roboto-medium;
+src: url('../_fonts/Roboto-Medium.ttf');
+}
+@font-face {
+font-family: roboto-mediumitalic;
+src: url('../_fonts/Roboto-MediumItalic.ttf');
+}
+@font-face {
+font-family: grenadine-bold;
+src: url('../_fonts/fonnts.com-Grenadine_MVB_Bold-1.otf');
+}
+@font-face {
+font-family: grenadine-regular;
+src: url('../_fonts/fonnts.com-Grenadine_MVB_Regular-1.otf');
+}
+
+
+
+
+.medium{
+font-family: grenadine-regular;
+}
+.bold{
+font-family: grenadine-bold;
+}
+.border{
+font-family: grenadine-bold;
+-webkit-text-stroke-width: 5px;
+-webkit-text-stroke-color: black;
+}
+
