@@ -12,11 +12,11 @@ src: url('../_fonts/Roboto-MediumItalic.ttf');
 }
 @font-face {
 font-family: grenadine-bold;
-src: url('../_fonts/fonnts.com-Grenadine_MVB_Bold-1.otf');
+src: url('fonnts.com-Grenadine_MVB_Bold-1.otf');
 }
 @font-face {
 font-family: grenadine-regular;
-src: url('../_fonts/fonnts.com-Grenadine_MVB_Regular-1.otf');
+src: url('fonnts.com-Grenadine_MVB_Regular-1.otf');
 }
 
 
