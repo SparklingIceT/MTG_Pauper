@@ -34,8 +34,25 @@
 .score2{
     position: absolute;
     overflow: hidden;
-    top: 83%;
+    top: 87%;
     left: 60%;
-    font-size: 380%;
+    font-size: 200%;
     text-align: center;
+}
+.deck{
+    position: absolute;
+    overflow: hidden;
+    top: 83%;
+    left: 3.9%;
+    font-size: 380%;
+    text-align: left;
+}
+.deck2{
+    position: absolute;
+    overflow: hidden;
+    top: 87%;
+    left: 64.5%;
+    font-size: 200%;
+    text-align: right;
+    width: 600px;
 }
