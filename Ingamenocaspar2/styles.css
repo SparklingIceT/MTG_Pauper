@@ -1,7 +1,7 @@
 .name{
     position: absolute;
     overflow: hidden;
-    top: 83%;
+    top: 82%;
     left: 3.9%;
     font-size: 380%;
     text-align: left;
@@ -9,7 +9,7 @@
 .name2{
     position: absolute;
     overflow: hidden;
-    top: 83%;
+    top: 82%;
     left: 64.5%;
     font-size: 380%;
     text-align: right;
@@ -42,7 +42,7 @@
 .deck{
     position: absolute;
     overflow: hidden;
-    top: 90%;
+    top: 89%;
     left: 3.9%;
     font-size: 200%;
     text-align: left;
@@ -50,7 +50,7 @@
 .deck2{
     position: absolute;
     overflow: hidden;
-    top: 90%;
+    top: 89%;
     left: 64.5%;
     font-size: 200%;
     text-align: right;
