@@ -1,0 +1,23 @@
+
+
+#name-parent{
+    position: absolute;
+    overflow: hidden;
+    top: 84.2%;
+    left: 5%;
+    font-size: 380%;
+    height: 19%;
+    width: 60%;
+    text-align: center;
+}
+
+#name-parent2{
+    position: absolute;
+    overflow: hidden;
+    top: 84.2%;
+    left: 64%;
+    font-size: 380%;
+    height: 19%;
+    width: 60%;
+    text-align: center;
+}
