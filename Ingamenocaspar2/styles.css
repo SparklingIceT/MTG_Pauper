@@ -56,3 +56,20 @@
     text-align: right;
     width: 600px;
 }
+.swiss{
+    position: absolute;
+    overflow: hidden;
+    top: 93%;
+    left: 3.9%;
+    font-size: 200%;
+    text-align: left;
+}
+.swiss2{
+    position: absolute;
+    overflow: hidden;
+    top: 93%;
+    left: 65.5%;
+    font-size: 200%;
+    text-align: right;
+    width: 600px;
+}
