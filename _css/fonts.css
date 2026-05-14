@@ -18,19 +18,21 @@ src: url('../_fonts/fonnts.com-Grenadine_MVB_Bold-1.otf');
 font-family: grenadine-regular;
 src: url('../_fonts/fonnts.com-Grenadine_MVB_Regular-1.otf');
 }
-
-
+@font-face {
+    font-family: 'Courier New', Courier, monospace;
+    src: url('../_fonts/CourierNew.ttf');
+}
 
 
 .medium{
-font-family: grenadine-regular;
+font-family: roboto-medium;
 }
 .bold{
-font-family: grenadine-bold;
+font-family: roboto-bold;
 }
 .border{
-font-family: grenadine-bold;
+font-family: 'Courier New', Courier, monospace;
 -webkit-text-stroke-width: 5px;
--webkit-text-stroke-color: black;
+-webkit-text-stroke-color: rgb(0, 0, 0);
 }
 

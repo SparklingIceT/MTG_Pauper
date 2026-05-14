@@ -1,0 +1,37 @@
+
+
+#name-parent{
+    position: absolute;
+    overflow: hidden;
+    top: 52%;
+    left: 13.2%;
+    font-size: 300%;
+    height: 19%;
+    width: 60%;
+    text-align: center;
+    opacity: 0;
+}
+
+#name-parent2{
+    position: absolute;
+    overflow: hidden;
+    top: 52%;
+    left: 42.4%;
+    font-size: 300%;
+    height: 19%;
+    width: 60%;
+    text-align: center;
+    opacity: 0;
+}
+
+#name-parent3{
+    position: absolute;
+    overflow: hidden;
+    top: 52%;
+    left: 71.2%;
+    font-size: 300%;
+    height: 19%;
+    width: 60%;
+    text-align: center;
+    opacity: 0;
+}

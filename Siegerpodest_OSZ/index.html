@@ -28,11 +28,14 @@
 
     <div id="content-container" >
 
-        <div id='name-parent' class='retina black bold name-parent'>
+        <div id='name-parent' class='retina white bold name-parent'>
           <span id='name' class='name'></span>
         </div>
-        <div id='name-parent2' class='retina black bold name-parent2'>
+        <div id='name-parent2' class='retina white bold name-parent2'>
           <span id='name2' class='name2'></span>
+        </div>
+        <div id='name-parent3' class='retina white bold name-parent3'>
+          <span id='name3' class='name3'></span>
         </div>
 
     </div>
@@ -52,6 +55,24 @@
 
   <!-- ### CASPAR ### -->
   <script src="../_js/ccg.js"></script>
+
+<!-- Import Updater -->
+  <script src="../_js/Updater.js"></script>
+   <script>
+       const settings = {
+                'string' : {
+                    'A1' : 'name',
+                    'A2' : 'name2',
+                    'A3' : 'name3',
+                }
+            };
+        const spreadsheetID = '1cYggnRLmY1taREbzD0NsSMihFl_tsW_LpiVGEvMVfVU'
+        const worksheetName = 'OUTPUT';
+        const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+        const updateInterval = 3000;
+
+        const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+   </script>
 
 
 </body>
