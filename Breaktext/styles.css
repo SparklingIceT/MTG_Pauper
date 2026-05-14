@@ -3,9 +3,9 @@
 .name{
     position: absolute;
     overflow: hidden;
-    top: 84.2%;
-    left: 5%;
-    font-size: 380%;
+    top: 48%;
+    left: 13%;
+    font-size: 500%;
     height: 19%;
     width: 60%;
     text-align: left;
@@ -13,9 +13,9 @@
 .name2{
     position: absolute;
     overflow: hidden;
-    top: 84.2%;
-    left: 36.5%;
-    font-size: 380%;
+    top: 48%;
+    left: 28.5%;
+    font-size: 500%;
     height: 19%;
     width: 60%;
     text-align: right;
